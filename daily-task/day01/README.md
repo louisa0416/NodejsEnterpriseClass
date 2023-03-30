@@ -18,5 +18,8 @@ const checkScore = (score) => {
 ```
 
 ##Setup
+
+```bash
 npm init
 node app.js
+```
