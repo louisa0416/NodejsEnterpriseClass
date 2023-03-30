@@ -17,7 +17,7 @@ const checkScore = (score) => {
 };
 ```
 
-##Setup
+## Setup
 
 ```bash
 npm init
