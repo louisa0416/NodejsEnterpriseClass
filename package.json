@@ -10,5 +10,8 @@
     "Node.js"
   ],
   "author": "Louisa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.0.3"
+  }
 }
