@@ -32,18 +32,6 @@ const drinksSchema = new mongoose.Schema(
   { versionKey: false }
 );
 
-// toppings: [{type: String}],
-// /* 加入 createdAt */
-// createdAt: {
-//   type: Date,
-//   default: Date.now,
-//   select: false
-// }
-// },{
-// versionKey: false
-// });
-// ```
-
 //建立Model
 const Drinks = new mongoose.model("drink", drinksSchema);
 
