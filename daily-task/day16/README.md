@@ -1,6 +1,9 @@
-## 題目（將答案寫在 **GitHub Repo** 並提交至回報區）
+## 題目（將答案寫在 HackMD 並提交至回報區）
 
-請參考[最終作業設計稿](https://xd.adobe.com/view/c0763dbe-fc15-42e8-be0b-8956ed03e675-9525/grid)，透過 POST API 的 req.body 新增一則貼文，並加上 Schema 欄位資料驗證，可複製或下載此[程式碼](https://github.com/dogwantfly/express-add-post)練習，完成後提交自己的 GitHub Repo
+延續 Day 15 每日任務，練習取得（GET） 特定貼文資料
+請在先前每日任務的 express [專案](https://github.com/dogwantfly/express-add-post)使用 express 提供的 req.params 取得貼文 id，並使用 mongoose 尋找符合 id 的資料，最後 response 該特定貼文資料（若 id 不存在可做簡易錯誤處理）
+
+例如：例如當 client 端輸入這個[網址](https://www.facebook.com/sfismy/posts/5281803261839276)時，可以 response 該特定貼文資料
 
 ## setup
 
