@@ -7,6 +7,6 @@
 
 ## setup
 
-- 切換到專案路徑 day15 下
+- 切換到專案路徑 day16 下
 - npm install
 - npm start
