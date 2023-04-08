@@ -1,4 +1,4 @@
-## 題目（將答案寫在 HackMD 並提交至回報區）
+## 題目
 
 在 GET posts 網址列帶入排序及限制筆數的參數
 並運用 Express 提供的 req.query 取得網址列的參數，將尋找到符合的資料設定排序及呈現指定資料數量
@@ -35,6 +35,6 @@ router.get("/", async (req, res, next) => {
 
 ## setup
 
-- 切換到專案路徑 day17 下
+- 切換到專案路徑 day18 下
 - npm install
 - npm start

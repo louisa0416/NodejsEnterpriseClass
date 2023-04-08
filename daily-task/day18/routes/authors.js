@@ -38,7 +38,7 @@ router.get("/", async (req, res, next) => {
     const timeSort = query.sort == "asc" ? "asc" : "desc";
     // 帶入網址列的參數
     const limit = query.limit;
-    console.log(query);
+    //console.log(query);
 
     const allAuthors = await Author.find()
       .sort({ name: timeSort })
