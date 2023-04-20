@@ -22,13 +22,8 @@ const generateSendJWT = (user, httpCode, res) => {
 const isAuth = handleErrorAsync(async (req, res, next) => {
   // 請帶入註冊成功回傳的 JWT
 
-  let token;
-  if (
-    req.headers.authorization &&
-    req.headers.authorization.startsWith("Bearer")
-  ) {
-    token = req.headers.authorization.split(" ")[1];
-  }
+  let token =
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2ZmOTBhYjllYjA5NzkxZDJjMjkzZSIsImlhdCI6MTY4MTk5NjQ4OCwiZXhwIjoxNjgyNjAxMjg4fQ.VsyWm7HMiwvjy3ThyUs2fWyV4TJP8ly4yKOc0dcKzbM";
 
   //確認token是否存在
   if (!token) {
